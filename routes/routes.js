@@ -200,8 +200,8 @@ router.post('/place-order', async(req,res)=>{
             let transporter = nodemailer.createTransport({
                 service:'gmail',
                 auth:{
-                    user:"abcdef@gmail.com",
-                    pass:"qwerty"
+                    user:"danishtaneja200@gmail.com",
+                    pass:"diuwqtfgdwqgloqz"
                 },
                 tls:{
                     rejectUnauthorized:false,
